@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@id/ib_title_left"
+        style="@style/IbBase"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:contentDescription="@string/app_name"
+        android:padding="@dimen/xsmall_margin" />
+
+    <TextView
+        android:id="@id/tv_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dp"
+        android:padding="5.0dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/middle_text_size" />
+
+    <LinearLayout
+        android:id="@id/ll_hospital_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <!-- 医院名称-->
+        <TextView
+            android:id="@id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black_5d"
+            android:textSize="@dimen/middle_text_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@id/iv_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3.0dp"
+            android:src="@drawable/ic_choice_hospital"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@id/action_tab"
+        layout="@layout/select_action_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@id/ib_title_right"
+        style="@style/IbBase"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:contentDescription="@string/app_name"
+        android:padding="@dimen/xsmall_margin" />
+
+    <TextView
+        android:id="@id/tv_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:padding="5.0dip"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/small_text_size"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@id/ll_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="1.0dip"
+        android:visibility="gone">
+
+        <SearchView
+            android:id="@id/search_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_rec_corner_gray"
+            android:iconifiedByDefault="false"
+            android:inputType="textFilter"
+            android:queryHint="@string/search_hospital" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@id/ll_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:layout_toRightOf="@id/ib_title_left"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@id/tv_block1"
+            style="@style/TvBase.Gray8c_xsmall"
+            android:text="从" />
+
+        <TextView
+            android:id="@id/tv_start"
+            style="@style/TvBase.Black25_xsmall"
+            android:layout_alignTop="@id/tv_block1"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@id/tv_block1"
+            android:text="我的位置" />
+
+        <TextView
+            android:id="@id/tv_block2"
+            style="@style/TvBase.Gray8c_xsmall"
+            android:layout_alignLeft="@id/tv_block1"
+            android:layout_below="@id/tv_block1"
+            android:text="到" />
+
+        <TextView
+            android:id="@id/tv_end"
+            style="@style/TvBase.Black25_xsmall"
+            android:layout_alignLeft="@id/tv_start"
+            android:layout_alignTop="@id/tv_block2"
+            android:text="" />
+    </RelativeLayout>
+</RelativeLayout>

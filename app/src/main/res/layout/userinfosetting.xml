@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_f2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@id/icon_logo"
+            android:layout_width="90.0dp"
+            android:layout_height="90.0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            style="@style/TvBase.Black19_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5.0dp"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@id/app_version"
+            style="@style/TvBase.Gray8c_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="1.0" />
+
+        <View
+            style="@style/LineHorizontal.Gray_d8"
+            android:layout_marginTop="10.0dp" />
+        <!-- 欢迎页-->
+        <TextView
+            android:id="@id/tv_welcome"
+            style="@style/TvBase.Black8c_middle.userinfo_textview"
+            android:layout_width="fill_parent"
+            android:background="@drawable/listview_selector"
+            android:text="@string/set_welcome" />
+
+        <View style="@style/LineHorizontal.Gray_d8" />
+
+        <View
+            style="@style/LineHorizontal.Gray_d8"
+            android:layout_marginTop="10.0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <!-- 意见反馈-->
+            <TextView
+                android:id="@id/tv_feedback"
+                style="@style/TvBase.Black8c_middle.userinfo_textview"
+                android:layout_width="fill_parent"
+                android:background="@drawable/listview_selector"
+                android:text="@string/set_feedback" />
+
+            <View
+                style="@style/LineHorizontal.Gray_d8"
+                android:layout_marginLeft="25.0dp" />
+
+            <!-- 使用手册-->
+            <TextView
+                android:id="@id/tv_menual"
+                style="@style/TvBase.Black8c_middle.userinfo_textview"
+                android:layout_width="match_parent"
+                android:background="@drawable/listview_selector"
+                android:text="@string/set_menual" />
+
+            <View
+                style="@style/LineHorizontal.Gray_d8"
+                android:layout_marginLeft="25.0dp" />
+
+            <TextView
+                android:id="@id/tv_free"
+                style="@style/TvBase.Black8c_middle.userinfo_textview"
+                android:layout_width="match_parent"
+                android:background="@drawable/listview_selector"
+                android:text="@string/set_statment" />
+
+            <View
+                style="@style/LineHorizontal.Gray_d8"
+                android:layout_marginLeft="25.0dp" />
+
+            <TextView
+                android:id="@id/tv_about_us"
+                style="@style/TvBase.Black8c_middle.userinfo_textview"
+                android:layout_width="match_parent"
+                android:background="@drawable/listview_selector"
+                android:text="@string/set_about_us" />
+
+            <View
+                style="@style/LineHorizontal.Gray_d8"
+                android:layout_marginLeft="25.0dp" />
+
+            <LinearLayout
+                android:id="@id/ll_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_selector"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TvBase.Black8c_middle.userinfo_textview"
+                    android:layout_width="0.0dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/listview_selector"
+
+                    android:text="@string/set_version" />
+
+                <TextView
+                    android:id="@id/tv_notify_tip"
+                    style="@style/TvBase.Black8c_middle.userinfo_textview"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/listview_selector"
+                    android:text="@string/set_new_version"
+                    android:textColor="@color/gray_ab"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+
+            <View style="@style/LineHorizontal.Gray_d8" />
+        </LinearLayout>
+
+        <Button
+            android:id="@id/btn_logout"
+            style="@style/user_btn_submint"
+            android:layout_margin="30.0dip"
+            android:text="@string/alter_logout_yes" />
+    </LinearLayout>
+</ScrollView>

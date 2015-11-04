@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@id/ll_noinfo"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_f9">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15.0sp"
+            android:textColor="@color/gray_8e"
+            android:background="@color/gray_f9"
+            android:gravity="center_horizontal"
+            android:id="@id/tv_noinfo"
+            android:text="@string/hsp_default_near"
+            android:layout_marginTop="80.0dp"
+            android:drawablePadding="20.0dp"
+            android:drawableTop="@drawable/noinfo_view"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

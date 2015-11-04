@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            style="@style/LineHorizontal.Gray_d8"
+            android:layout_marginTop="10.0dp" />
+
+        <RelativeLayout
+            android:id="@id/rl_doctor_info"
+            android:layout_width="match_parent"
+            android:layout_height="110.0dp"
+            android:background="@drawable/listview_selector">
+
+            <ImageView
+                android:id="@id/iv_dr_photo"
+                android:layout_width="80.0dp"
+                android:layout_height="80.0dp"
+                android:layout_marginLeft="15.0dp"
+                android:layout_marginTop="15.0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_sign_logo" />
+
+            <TextView
+                android:id="@id/tv_patient_name"
+                style="@style/TvBase.Black19_large"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dp"
+                android:layout_toRightOf="@id/iv_dr_photo"
+                android:text="王兴森" />
+
+            <TextView
+                android:id="@id/tv_next"
+                style="@style/TvBase.Gray8c_middle"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10.0dp"
+                android:drawableRight="@drawable/ic_next_sel"
+                android:text="@string/user_data" />
+        </RelativeLayout>
+
+        <!-- 分隔线-->
+        <View style="@style/LineHorizontal.Gray_d8" />
+
+        <View
+            style="@style/LineHorizontal.Gray_d8"
+            android:layout_marginTop="10.0dp" />
+
+        <TextView
+            android:id="@id/tv_patient_list"
+            style="@style/user_main_tv"
+            android:background="@drawable/listview_selector"
+            android:drawableLeft="@drawable/ic_com_patient"
+            android:text="@string/title_patient"
+            android:textSize="@dimen/middle_text_size" />
+
+        <View style="@style/LineHorizontal.Gray_d8" />
+
+        <View
+            style="@style/LineHorizontal.Gray_d8"
+            android:layout_marginTop="10.0dp" />
+
+        <TextView
+            android:id="@id/tv_collect"
+            style="@style/user_main_tv"
+            android:background="@drawable/listview_selector"
+            android:drawableLeft="@drawable/ic_my_collection"
+            android:text="@string/title_my_collection"
+            android:textSize="@dimen/middle_text_size" />
+
+        <View style="@style/LineHorizontal.Gray_d8" />
+
+        <TextView
+            android:id="@id/tv_envaluation"
+            style="@style/user_main_tv"
+            android:background="@drawable/listview_selector"
+            android:drawableLeft="@drawable/ic_my_envaluation"
+            android:text="@string/title_envaluation"
+            android:textSize="@dimen/middle_text_size" />
+
+        <View style="@style/LineHorizontal.Gray_d8" />
+
+        <TextView
+            android:id="@id/tv_bill"
+            style="@style/user_main_tv"
+            android:background="@drawable/listview_selector"
+            android:drawableLeft="@drawable/ic_my_bill"
+            android:text="@string/title_bill"
+            android:textSize="@dimen/middle_text_size" />
+
+        <View style="@style/LineHorizontal.Gray_d8" />
+
+        <TextView
+            android:id="@id/tv_order"
+            style="@style/user_main_tv"
+            android:background="@drawable/listview_selector"
+            android:drawableLeft="@drawable/ic_my_order"
+            android:text="@string/title_order"
+            android:textSize="@dimen/middle_text_size" />
+
+        <View style="@style/LineHorizontal.Gray_d8" />
+
+        <TextView
+            android:id="@id/tv_examination_card"
+            style="@style/user_main_tv"
+            android:background="@drawable/listview_selector"
+            android:drawableLeft="@drawable/ic_my_examination_card"
+            android:text="@string/title_my_examination_card"
+            android:textSize="@dimen/middle_text_size" />
+
+        <View style="@style/LineHorizontal.Gray_d8" />
+
+        <TextView
+            android:id="@id/tv_report"
+            style="@style/user_main_tv"
+            android:background="@drawable/listview_selector"
+            android:drawableLeft="@drawable/ic_my_report"
+            android:text="@string/title_report"
+            android:textSize="@dimen/middle_text_size" />
+
+        <View style="@style/LineHorizontal.Gray_d8" />
+
+        <View
+            style="@style/LineHorizontal.Gray_d8"
+            android:layout_marginTop="10.0dp" />
+
+        <TextView
+            android:id="@id/tv_setting"
+            style="@style/user_main_tv"
+            android:background="@drawable/listview_selector"
+            android:drawableLeft="@drawable/ic_my_setting"
+            android:text="@string/setting"
+            android:textSize="@dimen/middle_text_size" />
+
+        <View style="@style/LineHorizontal.Gray_d8" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@id/line_top"
+        style="@style/user_main_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TvBase.Black19_middle.common_textview"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="姓名" />
+
+        <TextView
+            android:id="@id/tv_name"
+            style="@style/TvBase.Black19_middle.common_textview"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="王兴森" />
+    </LinearLayout>
+
+    <View style="@style/user_main_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TvBase.Black19_middle.common_textview"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="性别" />
+
+        <TextView
+            android:id="@id/tv_sex"
+            style="@style/TvBase.Black19_middle.common_textview"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="女" />
+    </LinearLayout>
+
+    <View style="@style/user_main_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TvBase.Black19_middle.common_textview"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="身份证" />
+
+        <TextView
+            android:id="@id/tv_patient_id"
+            style="@style/TvBase.Black19_middle.common_textview"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="6666666666666666" />
+    </LinearLayout>
+
+    <View style="@style/user_main_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TvBase.Black19_middle.common_textview"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="手机号" />
+
+        <TextView
+            android:id="@id/tv_phone"
+            style="@style/TvBase.Black19_middle.common_textview"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="123456789" />
+
+        <ImageView
+            android:id="@id/tv_next"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_next_sel"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <View style="@style/user_main_line" />
+</LinearLayout>

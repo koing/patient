@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2">
+
+    <ImageView
+        android:id="@id/iv_hospital"
+        android:layout_width="80.0dp"
+        android:layout_height="80.0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20.0dp"
+        android:src="@drawable/hospital_default_icon" />
+
+    <TextView
+        android:id="@id/tv_hospital_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_hospital"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5.0dp"
+        android:text="南京鼓楼医院"
+        android:textColor="@color/black_19"
+        android:textSize="17.0sp" />
+
+    <TextView
+        android:id="@id/tv_grade_content"
+        style="@style/TvBase.Black34_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_hospital_name"
+        android:layout_centerHorizontal="true"
+        android:text="三级"
+        android:textColor="@color/black_19" />
+
+    <TextView
+        android:id="@id/tv_phone_content"
+        style="@style/TvBase.Black34_small"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="5.0dp"
+        android:visibility="gone"
+
+        />
+
+    <TextView
+        android:id="@id/tv_address_content"
+        style="@style/TvBase.Black34_small"
+        android:layout_marginLeft="5.0dp"
+        android:layout_marginRight="5.0dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:visibility="gone"
+
+        />
+
+    <View
+        android:id="@id/line1"
+        style="@style/LineHorizontal.Gray_d8"
+        android:layout_below="@id/tv_grade_content"
+        android:layout_marginTop="10.0dp" />
+
+    <LinearLayout
+        android:id="@id/ll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0.0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@id/tv_intro"
+            style="@style/sche_option_bar"
+            android:text="@string/hospital_intr" />
+
+        <TextView
+            android:layout_width="0.0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@id/tv_traffic"
+            style="@style/sche_option_bar"
+            android:text="@string/hospital_travel_info" />
+
+        <TextView
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@id/tv_navigation"
+            style="@style/sche_option_bar"
+            android:text="@string/hospital_navigate" />
+
+        <TextView
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <View
+        android:id="@id/line2"
+        style="@style/LineHorizontal.Gray_d8"
+        android:layout_below="@id/ll_layout" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/viewpager"
+        android:persistentDrawingCache="animation"
+        android:flipInterval="30"
+        android:layout_below="@id/line2"
+        />
+</RelativeLayout>

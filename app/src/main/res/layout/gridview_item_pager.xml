@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/ll_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/view_selector">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="20.0dp"
+            android:paddingLeft="10.0dp"
+            android:paddingRight="20.0dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40.0dp"
+                android:layout_height="40.0dp"
+                android:src="@drawable/grid_app_reg"
+                style="@style/IvBase"
+                android:id="@id/iv_image"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16.0sp"
+                android:textColor="@color/gray_8c"
+                android:id="@id/tv_words"
+                android:text="注册"
+                android:layout_marginTop="8.0dp"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="40.0dp"
+            android:layout_height="40.0dp"
+            android:id="@id/iv_func_enable"
+            android:src="@drawable/function_enable"
+            style="@style/IvBase"
+            />
+    </RelativeLayout>
+</RelativeLayout>

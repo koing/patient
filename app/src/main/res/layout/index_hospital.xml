@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/hsp_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<FrameLayout-->
+        <!--android:id="@id/frame"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="150.0dp">-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150.0dp"
+            android:id="@id/frame">
+            <!-- 图片滚动显示栏-->
+            <!--<android.support.v4.view.ViewPager-->
+            <!--android:id="@id/vp_image"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+            <com.greenpoint.patient.view.Image3DSwitchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.greenpoint.patient.view.Image3DView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/title_0" />
+
+                <com.greenpoint.patient.view.Image3DView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/title_1" />
+
+                <com.greenpoint.patient.view.Image3DView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/title_2" />
+
+                <com.greenpoint.patient.view.Image3DView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/title_2" />
+
+                <com.greenpoint.patient.view.Image3DView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/title_2" />
+
+                <com.greenpoint.patient.view.Image3DView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/title_2" />
+            </com.greenpoint.patient.view.Image3DSwitchView>
+
+            <LinearLayout
+                android:id="@id/ll_points"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="5.0dip"
+                android:background="#00000000"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" />
+            <!--</FrameLayout>-->
+
+        </RelativeLayout>
+
+        <com.greenpoint.patient.view.GridViewForScroll
+            android:id="@id/gv_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray_f8"
+            android:cacheColorHint="#00000000"
+            android:gravity="center"
+            android:horizontalSpacing="1.0dip"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="1.0dip" />
+
+        <View style="@style/LineHorizontal.Gray_d8" />
+    </LinearLayout>
+
+</ScrollView>

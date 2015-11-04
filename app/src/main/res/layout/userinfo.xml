@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f8"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/ll_doctor_info"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:id="@id/iv_dr_photo"
+            android:background="@drawable/ic_sign_logo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            style="@style/doctor_photo"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:textColor="@color/gray_8c"
+            android:gravity="center|right"
+            android:id="@id/tv_dr_name"
+            android:text="更换头像"
+            android:layout_marginRight="20dp"
+            android:drawableRight="@drawable/ic_next_sel"
+            android:drawablePadding="15dp"
+            />
+    </LinearLayout>
+    <include layout="@layout/baseinfo"/>
+
+    <LinearLayout android:orientation="horizontal"
+        android:id="@id/ll_changepwd"
+        android:background="@drawable/listview_selector"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            style="@style/TvBase.Black19_middle.common_textview"
+            android:text="修改密码"
+            android:layout_width="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/listview_selector"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_next_sel"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <View style="@style/LineHorizontal.Gray_d8"/>
+</LinearLayout>

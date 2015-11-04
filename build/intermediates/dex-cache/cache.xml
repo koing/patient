@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\classes-9262f3df281754965878d6fce192ed967c362c46.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\classes-b30693c1e9f6028859fd50b5cde7b159373dada8.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\GetuiSDK2.6.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3100fe637e8a196d202d7ab652355d5ecc31d465">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\GetuiSDK2.6.1.0-d9e81ab82f1816cda990c0bb658f80349379a389.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\GetuiExt-2.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7825bfa9135d693e2046eab96fd94e724e0f9eda">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\GetuiExt-2.0.3-1bb0f8adbc42db445518c75b663637e6d53688ca.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14-d00880ba53da812c9f59cf941f970324e7a7e064.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\universal-image-loader-1.8.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="09995ba681982ca129af798c9eb21e79c4bffa45">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.8.6-303c2f1270db188e1222533295740b0e3db6b1e5.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\build\intermediates\exploded-aar\Patient\pulltorefresh_library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="98f1f764f8c74d6616993f266a121603e38751ec">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\classes-464fad8e4b4ad8be6d903e5c817ffc15c33a9721.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\GetuiSDK2.6.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3100fe637e8a196d202d7ab652355d5ecc31d465">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\GetuiSDK2.6.1.0-d9e81ab82f1816cda990c0bb658f80349379a389.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14-d00880ba53da812c9f59cf941f970324e7a7e064.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-c132e099406a134e725136b220715722bd89e63f.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\universal-image-loader-1.8.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="09995ba681982ca129af798c9eb21e79c4bffa45">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.8.6-303c2f1270db188e1222533295740b0e3db6b1e5.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\AMap_Location_v1.4.1_20150917.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="07008f2806e509a55706771629c8767998b6fb98">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\AMap_Location_v1.4.1_20150917-c2fff805d2cc61819f408c48b4e165acdc1f5b99.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\AMap_Location_v1.4.1_20150917.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="07008f2806e509a55706771629c8767998b6fb98">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\AMap_Location_v1.4.1_20150917-c2fff805d2cc61819f408c48b4e165acdc1f5b99.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14-d00880ba53da812c9f59cf941f970324e7a7e064.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\universal-image-loader-1.8.6.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="09995ba681982ca129af798c9eb21e79c4bffa45">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.8.6-303c2f1270db188e1222533295740b0e3db6b1e5.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\GetuiSDK2.6.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3100fe637e8a196d202d7ab652355d5ecc31d465">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\GetuiSDK2.6.1.0-d9e81ab82f1816cda990c0bb658f80349379a389.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\classes-b30693c1e9f6028859fd50b5cde7b159373dada8.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\httpmime-4.1.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\httpmime-4.1.2-7268cadb8975738c2f44ca1508a2510cf3ff3835.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\AMap_Location_v1.4.1_20150917.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="07008f2806e509a55706771629c8767998b6fb98">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\AMap_Location_v1.4.1_20150917-c2fff805d2cc61819f408c48b4e165acdc1f5b99.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\GetuiExt-2.0.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7825bfa9135d693e2046eab96fd94e724e0f9eda">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\GetuiExt-2.0.3-1bb0f8adbc42db445518c75b663637e6d53688ca.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\classes-9262f3df281754965878d6fce192ed967c362c46.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="10e4fe85bb553e4d4d73ccb77e9958808aecdc1f">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android-f192df94aa3989eb066ce9a4a963cacbea1212f9.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\IndoorscapeAlbumPlugin.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="11bbb392074775916fb2d41b609d513d81907852">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\IndoorscapeAlbumPlugin-a10ba22582f03c2dfec81ee0bf2e0c0ea3f66fe0.jar" />
+    </item>
+    <item
+        jar="E:\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-bad60a26af0bde0cb5e86ff3f934ac21c9fc586a.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-2e7c58914c36bac20420b4fdc51910268460ef37.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\build\intermediates\exploded-aar\Patient\pulltorefresh_library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4f8c34e130c4e3ce277d77ac7c4b3539fe1c50cd">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\classes-464fad8e4b4ad8be6d903e5c817ffc15c33a9721.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-2e7c58914c36bac20420b4fdc51910268460ef37.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-c132e099406a134e725136b220715722bd89e63f.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Patient\app\libs\GetuiExt-2.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7825bfa9135d693e2046eab96fd94e724e0f9eda">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\GetuiExt-2.0.3-1bb0f8adbc42db445518c75b663637e6d53688ca.jar" />
+    </item>
+    <item
+        jar="E:\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="E:\AndroidStudioProjects\Patient\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-bad60a26af0bde0cb5e86ff3f934ac21c9fc586a.jar" />
+    </item>
+
+</items>

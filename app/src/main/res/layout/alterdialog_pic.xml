@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_dialog_bg"
+    android:id="@id/ll_pic_dialog">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/ll_above"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        >
+        <TextView android:textSize="16sp"
+            android:text="拍  照"
+            android:id="@id/tv_take_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_39"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_dialog_take"
+            android:drawablePadding="7dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@id/tv_take_file"
+            android:text="照  片"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:drawablePadding="7dp"
+            android:drawableTop="@drawable/ic_dialog_file"
+            android:textColor="@color/black_39"
+            android:layout_marginLeft="60dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/custom_dialog"
+    android:layout_width="160.0dip"
+    android:layout_height="130.0dip"
+    android:layout_gravity="center"
+    android:background="@drawable/radius_gray">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/loading_bg" />
+
+    <ImageView
+        android:id="@id/loadingImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45.0dip"
+        android:layout_marginTop="20.0dip"
+        android:src="@drawable/loading" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48.0dip"
+        android:layout_marginTop="23.0dip"
+        android:src="@drawable/loading_bg1" />
+
+    <TextView
+        android:id="@id/id_tv_loadingmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40.0dip"
+        android:text="@string/loading"
+        android:textColor="@color/white"
+        android:textSize="17.0sp" />
+</FrameLayout>

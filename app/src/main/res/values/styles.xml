@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme_Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/gray_f8</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/gray_c9</item>
+        <item name="android:actionBarStyle">@style/actionbar_def_style</item>
+    </style>
+
+    <style name="actionbar_def_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/actionBar_bg</item>
+        <item name="android:height">50.0dip</item>
+        <item name="android:displayOptions">useLogo</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/CustomProgress">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomProgress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="CustomAlterDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+
+    <style name="IbBase">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="IvBase">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="LineHorizontal.Gray_d8" parent="@style/LineHorizontal">
+        <item name="android:background">@color/gray_d8</item>
+    </style>
+
+    <style name="LineHorizontal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+
+    <style name="TvBase.Gray8c_xsmall" parent="TvBase">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textColor">@color/gray_8c</item>
+    </style>
+
+
+    <style name="TvBase">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TvBase.Black25_xsmall" parent="@style/TvBase">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textColor">@color/black_25</item>
+    </style>
+
+    <style name="listview">
+        <item name="android:background">@color/white</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:listSelector">#00000000</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@color/gray_d8</item>
+        <item name="android:dividerHeight">1.0dip</item>
+        <item name="android:headerDividersEnabled">true</item>
+        <item name="android:footerDividersEnabled">true</item>
+    </style>
+
+    <style name="TvBase.Black19_large" parent="@style/TvBase">
+        <item name="android:textColor">@color/black_19</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="TvBase.Gray8c_middle" parent="TvBase">
+        <item name="android:textColor">@color/gray_8c</item>
+        <item name="android:textSize">@dimen/middle_text_size</item>
+    </style>
+
+    <style name="user_main_tv">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@color/black_8c</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawableRight">@drawable/ic_next_sel</item>
+        <item name="android:drawablePadding">10.0dip</item>
+    </style>
+
+    <style name="TvBase.Gray8c_large" parent="TvBase">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@color/gray_8c</item>
+    </style>
+    
+    <style name="TvBase.Black8c_middle.userinfo_textview" parent="TvBase.Black8c_middle">
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingLeft">25.0dip</item>
+        <item name="android:paddingTop">@dimen/settings</item>
+        <item name="android:paddingRight">25.0dip</item>
+        <item name="android:paddingBottom">@dimen/settings</item>
+    </style>
+
+    <style name="TvBase.Black8c_middle" parent="@style/TvBase">
+        <item name="android:textSize">@dimen/middle_text_size</item>
+        <item name="android:textColor">@color/black_8c</item>
+    </style>
+
+    <style name="user_btn_submint">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@drawable/btn_text_select_submit</item>
+        <item name="android:background">@drawable/btn_select_submit</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45.0dip</item>
+    </style>
+
+    <style name="doctor_photo" parent="IvBase">
+        <item name="android:background">@drawable/ic_dr_photo</item>
+        <item name="android:layout_width">80.0dip</item>
+        <item name="android:layout_height">80.0dip</item>
+    </style>
+
+    <style name="user_main_line" parent="LineHorizontal.Gray_d8">
+        <item name="android:layout_marginLeft">@dimen/middle_margin</item>
+        <item name="android:layout_marginRight">@dimen/middle_margin</item>
+    </style>
+
+    <style name="TvBase.Black19_middle.common_textview" parent="@style/TvBase.Black19_middle">
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+    </style>
+
+
+
+    <style name="TvBase.Black19_middle" parent="TvBase">
+        <item name="android:textSize">@dimen/middle_text_size</item>
+        <item name="android:textColor">@color/black_19</item>
+    </style>
+
+    <style name="dialogWindowAnim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="TvBase.Black34_small" parent="@style/TvBase">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/black_34</item>
+    </style>
+
+    <style name="sche_option_bar">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@drawable/select_text_red</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/select_tab_bg</item>
+        <item name="android:paddingLeft">@dimen/xsmall_margin</item>
+        <item name="android:paddingTop">@dimen/small_margin</item>
+        <item name="android:paddingRight">@dimen/xsmall_margin</item>
+        <item name="android:paddingBottom">@dimen/small_margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="TvBase.Black60_small" parent="@style/TvBase">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/black_60</item>
+    </style>
+
+    <style name="LineVertical">
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="LineVertical.Gray_d8" parent="@style/LineVertical">
+        <item name="android:background">@color/gray_d8</item>
+    </style>
+
+
+</resources>
